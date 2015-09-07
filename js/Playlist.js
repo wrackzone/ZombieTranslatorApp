@@ -1,4 +1,4 @@
-define([], function(){
+define(['Song'], function(Song){
 
   var Playlist = function(){
     // initialize
@@ -7,7 +7,7 @@ define([], function(){
 
   };
   Playlist.prototype.addSong = function(song){
-    this.playlist.push(song);
+    this.playlist.push(new Song(song));
     this.updatePlaylist();
   };
   Playlist.prototype.removeSong = function(index){

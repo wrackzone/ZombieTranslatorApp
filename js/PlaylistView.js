@@ -25,6 +25,7 @@ define(['jquery', 'Playlist'], function($, Playlist){
   PlaylistView.prototype.updatePlaylistDom = function(){
     var that = this;
     var playlistDom = this.playlist.playlist.map(function(song, index){
+      console.log(song);  
       var removeButton = document.createElement("button");
       removeButton.appendChild(document.createTextNode("remove"));
       $(removeButton).click(function(){
@@ -34,7 +35,7 @@ define(['jquery', 'Playlist'], function($, Playlist){
       $(removeButton).addClass("btn");
 
       var li = document.createElement('li');
-      li.appendChild(document.createTextNode(song));
+      li.appendChild(document.createTextNode(song.title));
       li.appendChild(removeButton);
       return li;
     });
