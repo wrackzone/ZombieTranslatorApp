@@ -9,15 +9,16 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <script data-main="js/main" src="js/vendors/require.min.js"></script>
+    <script data-main="js/app" src="js/vendors/require.min.js"></script>
 </head>
 <body>
     <div class="container">
         <div class=""
         <section class="col-md-6">
-            <form id="addSongForm">
-                <input type="text" id="song" />
-                <button type="submit" id="addSong">Add</button>
+            <form id="addSongForm" class="form-inline">
+                <label for="song">Song</label>
+                <input class="form-control" type="text" id="song" />
+                <button class="btn" type="submit" id="addSong">Add</button>
             </form>
         </section>
 
