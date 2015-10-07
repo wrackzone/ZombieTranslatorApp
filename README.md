@@ -2,7 +2,7 @@
 
 ## Translates using the following rules ...
 
-See (source)[https://github.com/wrackzone/ZombieTranslatorApp/blob/master/js/app/Zombify.js]
+See [source](https://github.com/wrackzone/ZombieTranslatorApp/blob/master/js/app/Zombify.js)
 
 
 | English | Zombie | 
