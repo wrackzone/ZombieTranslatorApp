@@ -5,7 +5,7 @@
 
 | English | Zombie | 
 | ------- | ------ | 
-| aA]     | 'hra'  |
+| aA     | 'hra'  |
 | eE      | 'rr'   |
 |iI 	  | 'rrRr  |
 |oO       | 'rrrRr'|
