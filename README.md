@@ -3,14 +3,15 @@
 ## Translates using the following rules ...
 
 
-| English | Zombie |  |
-| ------- | ------ | -|
+| English | Zombie | 
+| ------- | ------ | 
 | aA]     | 'hra'  |
 | eE      | 'rr'   |
 |iI 	  | 'rrRr  |
 |oO       | 'rrrRr'|
 |uU       | 'rrrrRr'|
 |rR       | 'RR' |
-|gG       | 'grrrr'|  custom rule 1 |
-|lL       | 'lrrrr' |  custom rule 2 |
+|gG       | 'grrrr' (custom 1)|  
+|lL       | 'lrrrr' (custom 2)|
+
 
